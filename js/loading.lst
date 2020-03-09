@@ -7,5 +7,7 @@ vendor/imagesloaded/imagesloaded.pkgd.min.js
 vendor/infinite-scroll/jquery.infinitescroll.min.js
 cookies-warning.min.js
 modules/*
-wb/*
+wb/jquery.carouFredSel-6.2.1-packed.js
+wb/aos.js
+wb/twitterFetcher_min.js
 scripts-eqm.js
