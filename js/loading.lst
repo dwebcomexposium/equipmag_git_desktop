@@ -8,3 +8,4 @@ vendor/infinite-scroll/jquery.infinitescroll.min.js
 cookies-warning.min.js
 modules/*
 wb/*
+scripts-eqm.js
