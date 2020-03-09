@@ -2930,8 +2930,8 @@ p.la-item-btn:first-child { margin-top: 0; }
 /* ------------------------------------------------------------ *\
     404
 \* ------------------------------------------------------------ */
-.error-page #zone1 { display: none; }
-.error-page { padding-bottom: 90px; }
+.error404 #zone1 { display: none; }
+.error-page { padding: 90px 0; }
 .error-page h1 { text-align: center;  }
 .error-page .intro {margin-top: 30px; }
 .error-page .global-search-form { display: none; }
@@ -2940,82 +2940,11 @@ p.la-item-btn:first-child { margin-top: 0; }
 
 
 
-
-/*faq*/
-/*.block-page.faq { margin-right: -273px; margin-bottom: 57px; }
-.block-page.faq:last-child { margin-bottom: 0; }
-.block-page.faq .inside { padding: 0; }
-
-.faq-main-title { padding-bottom: 0; border-bottom: 0; margin-bottom: 23px !important; font-size: 32px; line-height: 1.19; color: #000; font-weight: 900; }
-
-.faq-summary,
-.faq-sub-title { display: none; }
-
-.faq-content { padding-left: 0; }
-
-.block-page.faq .fc-title { display: none; padding: 0; border-bottom: 0; margin: 0; }
-
-.fc-item { padding: 30px 0 31px; border-top: 1px solid #E7E7E7; border-bottom: 0; background: none !important; }
-.fc-item:last-child { border-bottom: 1px solid #e7e7e7; }
-.fc-item h3 { margin: 0; }
-.fc-item .fc-item-link { position: relative; padding-right: 40px; background: none; font-size: 18px; line-height: 1.17; color: #000; font-weight: normal; }
-.fc-item .fc-item-link:focus { text-decoration: none; }
-.fc-item .fc-item-link.is-active { font-weight: bold; }
-.fc-item .fc-item-link:hover { text-decoration: none; }
-.fc-item .fc-item-link .icon { position: absolute; top: -4px; right: 0; margin-right: 0; font-size: 25px; line-height: 1.16; color: #000; }
-.fc-item .fc-item-link .icon-plus { text-align: right; }
-.fc-item .fc-item-link .icon-plus:before { content: '+'; }
-.fc-item .fc-item-link .icon-minus { top: -12px; font-size: 32px; text-align: center; }
-.fc-item .fc-item-link .icon-minus:before { content: '-'; }
-
-.fc-item-content { max-width: 900px; padding: 0 24px 0 0; margin-top: 34px; font-size: 16px; line-height: 1.88; color: #000; }
-.fc-item-content p { margin-bottom: 30px; line-height: 1.88; }
-.fc-item-content .focus2 { margin-bottom: 0; }
-.fc-item-content .focus2 a { display: inline-block; padding-right: 29px; }
-
-@media (max-width: 1400px) {
-    .block-page.faq { margin-right: -250px; }
-}
-
-@media (max-width: 1250px) {
-    .block-page.faq { margin-right: -170px; }
-}
-
-@media (max-width: 1024px) {
-    .block-page.faq { margin-right: -90px; }
-}
-
-@media (max-width: 767px) {
-    .block-page.faq { padding: 40px 0; margin-right: 0; margin-bottom: 0; }
-    .faq-main-title { font-size: 24px; }
-
-    .fc-item { padding: 15px 0; }
-    .fc-item .fc-item-link { padding-right: 30px; font-size: 16px; }
-    .fc-item .fc-item-link .icon { top: 50%; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); }
-
-    .fc-item-content { margin-top: 20px; font-size: 15px; }
-    .fc-item-content p { margin-bottom: 15px; }
-
-    .article-content { margin-bottom: 30px; }
-    .article-content ul { margin-bottom: 20px; }
-}*/
-
-
 /* ------------------------------------------------------------ *\
     FAQ
 \* ------------------------------------------------------------ */
 
 .faq { padding-bottom: 60px; /*margin-right: -319px;*/ }
-
-/*.faq:last-child { padding-bottom: 0; }
-.faq .inside { padding: 0; }
-
-.faq .faq-main-title,
-.faq .intro,
-.faq .faq-sub-title,
-.faq .faq-summary { display: none; }
-
-.faq-content { padding-left: 0; }*/
 
 .fc-item-nb, faq .intro, .faq .faq-sub-title, .faq .faq-summary { display: none; }
 
@@ -3046,17 +2975,15 @@ p.la-item-btn:first-child { margin-top: 0; }
 .faq .focus2 a:not([class]):hover:before { -webkit-transform: translateX(5px); -ms-transform: translateX(5px); transform: translateX(5px); }
 
 @media (max-width: 1306px) {
-/*    .faq { margin-right: calc(-100vw + 981px); }*/
 }
 
 @media (max-width: 1024px) {
-/*    .faq { margin-right: 0; }*/
 
     .fc-title { padding-bottom: 20px; margin-bottom: 35px !important; }
 }
 
 @media (max-width: 767px) {
-/*    .faq { padding-bottom: 20px; }*/
+    .faq { padding-bottom: 20px; }
 
     .fc-item { margin-bottom: 10px; }
 
@@ -3075,7 +3002,7 @@ p.la-item-btn:first-child { margin-top: 0; }
 }
 
 
-
+.tt-dropdown-menu { display: none; }
 
 
 
