@@ -7,3 +7,4 @@ vendor/imagesloaded/imagesloaded.pkgd.min.js
 vendor/infinite-scroll/jquery.infinitescroll.min.js
 cookies-warning.min.js
 modules/*
+wb/*
