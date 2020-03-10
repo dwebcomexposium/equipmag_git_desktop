@@ -2238,6 +2238,15 @@ p.la-item-btn:first-child { margin-top: 0; }
 
 .article-content-inner { max-width: 931px; }
 
+.article-content p.style2 { column-count: 2; column-gap: 120px; margin: 30px 0 60px; }
+@media (max-width: 1024px) {
+    .article-content p.style2 { column-gap: 40px;  }
+}
+@media (max-width: 767px) {
+    .article-content p.style2 { column-count: 1;  }
+}
+
+
 /*table*/
 .article-content table td {border: 0; font-size: 14px; line-height: 35px; text-align: center;}
 .article-content table tbody tr:nth-child(odd) {background-color: #EBEEF9; }
