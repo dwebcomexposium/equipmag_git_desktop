@@ -2231,6 +2231,16 @@ p.la-item-btn:first-child { margin-top: 0; }
 .article-content custom h4 strong { font-size: 60px; line-height: 1.6; color: inherit; text-transform: none; }
 .article-content custom h4 strong:first-child { font-weight: normal; }
 .article-content custom h4 + p { margin-top: 15px; }
+
+.article-content custom h2 { font-size: 60px; line-height: 1.6; color: inherit; text-transform: none; }
+.article-content custom h3 { color: #fff; margin-top: 20px; }
+.article-content custom h3 strong { color: #F2049B; }
+
+
+
+
+
+
 .article-content custom .lien2 { border-color: #fff; background: #fff; color: #0020ad; }
 .article-content custom .lien2:before { opacity: .1; }
 
@@ -3044,6 +3054,38 @@ p.la-item-btn:first-child { margin-top: 0; }
 
 
 .tt-dropdown-menu { display: none; }
+
+
+
+/* ------------------------------------------------------------ *\
+    Partner list page
+\* ------------------------------------------------------------ */
+
+body.partner .partner-list .pl-item {padding: 40px 0; }
+body.partner .partner-list .intro {font-size: 19px; }
+
+body.partner .partner-list .pl-item img {margin-right: 40px; vertical-align: top; }
+
+body.partner .partner-list .inside .js-hidden {display: none ; }
+body.partner .partner-list .inside button.btn {border: 0; color: #000; font-size: 15px; font-weight: normal; text-decoration: none; background: none; }
+
+body.partner .partner-list i.icon.icon-plus {color: #000; padding-bottom: 5px; margin-right: 5px; }
+body.partner .partner-list i.icon.icon-minus { color: #000; padding-right: 10px; padding-bottom: 10px; }
+
+
+body.partner .pl-item-title { color: #0020AD;  }
+
+
+
+.pl-item-read-more { margin-top: 37px; }
+.pl-item-read-more a:hover { color: #00525e; }
+
+
+@media (max-width: 1024px) {
+    .pl-item-content { width: 100%; }
+    
+}
+
 
 
 
