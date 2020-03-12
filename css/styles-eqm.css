@@ -3090,6 +3090,7 @@ body.partner .pl-item-title { color: #0020AD;  }
 
 
 
+
 /* ------------------------------------------------------------ *\
     Animation souris home
 \* ------------------------------------------------------------ */
@@ -3133,3 +3134,7 @@ body.partner .pl-item-title { color: #0020AD;  }
     75% { opacity: 1; }
     100% { opacity: 0; }
 }
+
+/*div */
+
+.at-publication  { display: none; }
