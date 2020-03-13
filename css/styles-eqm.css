@@ -2471,6 +2471,11 @@ p.la-item-btn:first-child { margin-top: 0; }
 .cl-content:last-child { margin-bottom: 0; } 
 .cl-item { position: relative; display: block; width: 33.33%; padding: 0 15px; border-bottom: 0; margin-bottom: 0; text-align: center; } 
 .cl-item:nth-child(n+4) { margin-top: 29px; } 
+
+@media (max-width: 767px) {
+    .cl-item:nth-child(n+4) { margin-top: 0 !important; }
+}
+
 .cl-item:last-child { margin-bottom: 0; } 
 .cl-item > * { display: block; padding: 0; }
 
