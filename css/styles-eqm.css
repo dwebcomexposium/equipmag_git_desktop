@@ -205,11 +205,14 @@ nav ol { list-style: none outside none; }
 \* ------------------------------------------------------------ */
 
 body { min-width: 320px; height: auto !important; background: #0020AD; font-family: 'Gotham', sans-serif; font-size: 16px; line-height: 1.75; color: #575757; font-weight: normal; -webkit-transition: background 1s 1s; -o-transition: background 1s 1s; transition: background 1s 1s; }
-body:after { content: ''; position: fixed; top: 0; right: 0; bottom: 0; left: 0; z-index: 99999; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); background: #0020AD; -webkit-transition: -webkit-transform 1s; transition: -webkit-transform 1s; -o-transition: transform 1s; transition: transform 1s; transition: transform 1s, -webkit-transform 1s; }
 body:not(.ready) { opacity: 0; visibility: hidden; }
+body:after { content: ''; position: fixed; top: 0; right: 0; bottom: 0; left: 0; z-index: 99999; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); background: #0020AD; -webkit-transition: -webkit-transform 1s; transition: -webkit-transform 1s; -o-transition: transform 1s; transition: transform 1s; transition: transform 1s, -webkit-transform 1s; }
 body.ready { -webkit-transition: opacity 0s .4s, visibility 0s .4s, background 1s 1s; -o-transition: opacity 0s .4s, visibility 0s .4s, background 1s 1s; transition: opacity 0s .4s, visibility 0s .4s, background 1s 1s; }
 body.hide-overlay { background: #fff; -webkit-transition: none; -o-transition: none; transition: none; }
 body.hide-overlay:after { -webkit-transform: translateY(100%); -ms-transform: translateY(100%); transform: translateY(100%); }
+body.stop-page-transition { background: #fff; }
+body.stop-page-transition:after { display: none; }
+
 
 p { line-height: inherit; }
 
