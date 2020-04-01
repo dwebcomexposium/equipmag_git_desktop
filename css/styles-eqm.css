@@ -210,8 +210,10 @@ body:after { content: ''; position: fixed; top: 0; right: 0; bottom: 0; left: 0;
 body.ready { -webkit-transition: opacity 0s .4s, visibility 0s .4s, background 1s 1s; -o-transition: opacity 0s .4s, visibility 0s .4s, background 1s 1s; transition: opacity 0s .4s, visibility 0s .4s, background 1s 1s; }
 body.hide-overlay { background: #fff; -webkit-transition: none; -o-transition: none; transition: none; }
 body.hide-overlay:after { -webkit-transform: translateY(100%); -ms-transform: translateY(100%); transform: translateY(100%); }
-body.stop-page-transition { background: #fff; }
-body.stop-page-transition:after { display: none; }
+
+/*stop-page-transition*/
+body.body-corpo { background: #fff; }
+body.body-corpo:after { display: none; }
 
 
 p { line-height: inherit; }
