@@ -2919,7 +2919,7 @@ p.la-item-btn:first-child { margin-top: 0; }
     Section 
 \* ------------------------------------------------------------ */
 
-.section-bar { padding: 18px 0 16px; margin-bottom: 63px; background: #0020AD; font-size: 14px; line-height: 1.2; color: #fff; }
+.section-bar { padding: 18px 0 16px; margin-bottom: 63px!important; background: #0020AD; font-size: 14px; line-height: 1.2; color: #fff; }
 .section-bar:last-child { margin-bottom: 0; }
 .section-bar .inside { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -ms-flex-wrap: wrap; flex-wrap: wrap; max-width: 100%; }
 .section-bar .section__head { padding-right: 19px; border-right: 1px solid #fff; margin-right: 20px; text-transform: uppercase; }
@@ -2941,7 +2941,7 @@ p.la-item-btn:first-child { margin-top: 0; }
 }
 
 @media (max-width: 1024px) {
-    .section-bar { margin-bottom: 43px; }
+    .section-bar { margin-bottom: 43px!important; }
     
     .section-bar--exposants .section__body { max-width: 250px; }
 }
@@ -3003,8 +3003,10 @@ p.la-item-btn:first-child { margin-top: 0; }
 .error-page h1 { text-align: center;  }
 .error-page .intro {margin-top: 30px; }
 .error-page .global-search-form { display: none; }
-.error-page .intro p.txtcenter { padding-bottom: 20px; }
+.error-page .intro p.txtcenter, .error-page figure.center { padding-bottom: 20px; }
+
 .error-page #zone1 .section-intro { display: none; }
+
 
 
 
