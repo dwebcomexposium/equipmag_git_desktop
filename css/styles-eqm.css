@@ -1217,7 +1217,7 @@ body.lp-exposant .section-logos { margin-bottom: 90px; }
     .pg-item-group .pg-item:nth-child(4n+1) { border-left-width: 0; }
     .pg-item-group .pg-item:nth-child(3n+1) { border-left-width: 1px; }
 	
-	.pg-item-group .pg-item:nth-child(10), .pg-item-group .pg-item:nth-child(11), .pg-item-group .pg-item:nth-child(12), .pg-item-group .pg-item:nth-child(13), .pg-item-group .pg-item:nth-child(14) { display: none; }
+	.pg-item-group .pg-item:nth-child(10), .pg-item-group .pg-item:nth-child(11), .pg-item-group .pg-item:nth-child(12), .pg-item-group .pg-item:nth-child(13), .pg-item-group .pg-item:nth-child(14),.pg-item-group .pg-item:nth-child(15), .pg-item-group .pg-item:nth-child(16) { display: none; }
 
 
 
