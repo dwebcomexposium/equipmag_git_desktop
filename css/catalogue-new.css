@@ -9,6 +9,5 @@
   border: 1px solid #000 !important;
   color: #000 !important;}
   
-#catalog-v2 .bgTint {
-  background-color: #f2049b !important;
-}
+#catalog-v2 .ais-SearchBox {
+border: 1px solid #f2049b;}
