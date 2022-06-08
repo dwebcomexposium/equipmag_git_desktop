@@ -18,3 +18,7 @@
   color: #000 !important;
   border-bottom: 2px solid #000 !important;
 }
+
+#catalog-v2 .bgTint {
+  background-color: #f2049b;
+}
