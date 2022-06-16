@@ -22,3 +22,6 @@
 #catalog-v2 .bgTint {
   background-color: #f2049b;
 }
+
+#catalog-v2 .image-animation {
+  position: unset;}
