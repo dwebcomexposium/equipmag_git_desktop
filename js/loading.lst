@@ -5,7 +5,6 @@ vendor/mustache.js/jquery.mustache.js
 vendor/masonry/dist/masonry.pkgd.min.js
 vendor/imagesloaded/imagesloaded.pkgd.min.js
 vendor/infinite-scroll/jquery.infinitescroll.min.js
-cookies-warning.min.js
 modules/*
 wb/jquery.carouFredSel-6.2.1-packed.js
 wb/aos.js
